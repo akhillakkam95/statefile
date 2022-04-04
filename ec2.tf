@@ -14,4 +14,4 @@ resource "aws_instance" "awsservice" {
     tags = {
         name = "terra-prod"
     }
-}
+}}
