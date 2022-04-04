@@ -3,6 +3,6 @@ resource "aws_s3_bucket" "myterraformbucket" {
     acl = "private"
     tags = {
         name = "myterraform_bucket"
-        environment = "dev"
+        environment = "dev1"
     }
 }
